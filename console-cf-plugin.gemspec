@@ -9,7 +9,7 @@ require "console-cf-plugin/version"
 
 Gem::Specification.new do |s|
   s.name        = "console-cf-plugin"
-  s.version     = CFConsole::VERSION.dup
+  s.version     = CFConsolePlugin::VERSION.dup
   s.authors     = ["Alex Suraci"]
   s.email       = ["asuraci@vmware.com"]
   s.homepage    = "http://cloudfoundry.com/"
