@@ -11,6 +11,16 @@ GIT
       multi_json (~> 1.3)
 
 GIT
+  remote: git://github.com/cloudfoundry/cfoundry.git
+  revision: 8d256c633baaa01ac82d1a27475910f956801cfb
+  specs:
+    cfoundry (0.5.3.rc5)
+      cf-uaa-lib (~> 1.3.10)
+      multi_json (~> 1.3)
+      multipart-post (~> 1.1)
+      rubyzip (~> 0.9)
+
+GIT
   remote: git://github.com/cloudfoundry/tunnel-cf-plugin.git
   revision: 75464ad406d80b46d19430dc01ffd96aa727a091
   specs:
@@ -20,16 +30,6 @@ GIT
       cfoundry (>= 0.5.3.rc5, < 0.6)
       rest-client (~> 1.6)
       uuidtools (~> 2.1)
-
-GIT
-  remote: git://github.com/cloudfoundry/vmc-lib.git
-  revision: 8d256c633baaa01ac82d1a27475910f956801cfb
-  specs:
-    cfoundry (0.5.3.rc5)
-      cf-uaa-lib (~> 1.3.10)
-      multi_json (~> 1.3)
-      multipart-post (~> 1.1)
-      rubyzip (~> 0.9)
 
 GEM
   remote: http://rubygems.org/
