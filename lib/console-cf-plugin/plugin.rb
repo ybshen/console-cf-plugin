@@ -1,8 +1,8 @@
-require "vmc/plugin"
-require "console-vmc-plugin/console"
+require "cf/plugin"
+require "console-cf-plugin/console"
 
-module VMCConsole
-  class Console < VMC::CLI
+module CFConsolePlugin
+  class Console < CF::CLI
     desc "Open a console connected to your app"
     group :apps, :manage
     input :app, :argument => :required, :from_given => by_name("app"),

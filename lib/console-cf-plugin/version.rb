@@ -1,3 +1,3 @@
-module VMCConsole
+module CFConsolePlugin
   VERSION = "0.1.1".freeze
 end

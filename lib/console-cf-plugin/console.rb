@@ -1,7 +1,7 @@
 require "net/telnet"
 require "readline"
 
-require "tunnel-vmc-plugin/tunnel"
+require "tunnel-cf-plugin/tunnel"
 
 
 class CFConsole < CFTunnel

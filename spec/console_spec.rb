@@ -1,5 +1,5 @@
 require "spec_helper"
-require "console-vmc-plugin/plugin"
+require "console-cf-plugin/plugin"
 
 describe "CFConsole" do
   before do

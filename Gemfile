@@ -5,7 +5,8 @@ source "http://rubygems.org"
 #############
 
 gem "cfoundry", :git => "git://github.com/cloudfoundry/vmc-lib.git"
-gem "vmc", :git => "git://github.com/cloudfoundry/vmc.git"
+gem "cf", :git => "git://github.com/cloudfoundry/cf.git"
+gem "tunnel-cf-plugin", :git => "git://github.com/cloudfoundry/tunnel-cf-plugin.git"
 
 group :development, :test do
   gem "rake"
