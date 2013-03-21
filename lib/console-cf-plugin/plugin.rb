@@ -23,10 +23,7 @@ module CFConsolePlugin
     end
 
     filter(:start, :start_app) do |app|
-      if app.framework.name == "rails3" || app.framework.name == "buildpack"
-        app.console = true
-      end
-
+      app.console = true
       app
     end
   end
