@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob("spec/**/*")
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "tunnel-cf-plugin", ">= 0.3.0.rc6", "< 0.4"
+  s.add_runtime_dependency "tunnel-cf-plugin", "~> 0.3.0"
 
   s.add_development_dependency "rake", "~> 0.9"
   s.add_development_dependency "rspec", "~> 2.11"
