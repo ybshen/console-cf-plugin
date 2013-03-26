@@ -1,3 +1,3 @@
 module CFConsolePlugin
-  VERSION = "0.2.0.rc3".freeze
+  VERSION = "0.2.0".freeze
 end
